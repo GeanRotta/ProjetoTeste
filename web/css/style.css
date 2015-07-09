@@ -1,0 +1,188 @@
+
+.cabecalho{
+  background: transparent url("../img/cabecalho.png")  no-repeat scroll center top;
+  height: 150px;
+  position: fixed;
+  top: 0px;
+  z-index: 600;
+  width: 100%;
+  display:block;
+}
+.contatoconteudo{
+  overflow:auto;
+  
+}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      
+      margin: auto;
+  }
+#mapa iframe{
+width:100%;
+height:300px!important;
+box-shadow:1px 1px 5px 1px #000!important;
+-moz-box-shadow:1px 1px 5px 1px #000!important;
+-webkit-box-shadow:1px 1px 5px 1px #000!important
+}
+
+.container-hiddenFooter{
+  overflow:auto;
+  margin: -20px 30px 30px 30px;
+}
+
+.formlogin{
+  margin-top: 0px;
+  background-color:#E2F4F6;
+  position: absolute;
+  height: 230;
+  margin-left:800px;
+  width: 300px;  
+}
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.container-hiddenContato{
+    color:white;
+	overflow: auto;
+	background: #003333;
+}
+
+.informacao_contato{
+   margin: 30px 30px 30px 30px;
+   float:right;     
+}
+
+.contacto{
+   margin: 30px 30px 30px 30px;
+   float:left;
+   display:inline;
+}
+
+.tudo{
+   background-image: url('../img/fundo.png');
+   width:100%;
+   height:100%;
+   position: relative;
+}
+html{
+  background-color: black;
+}
+.cabecalhocorpo img{
+float: left;
+}
+
+.cabecalhocorpo{
+  height:150px;
+  position: relative;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  left: 0;
+  margin: 0;
+  position: relative; 
+  
+}
+.galeria{
+  margin: -30px 30px 0px 30px; 
+}
+.diagonal_footer{
+   width: 106%;
+   height:40px; 
+   background: #330033;
+   transform: rotate(-3deg);
+   position:absolute; 
+   left: -9px;
+   padding-left: 3px;
+
+}
+.diagonal_footer_A{
+   width:100%;
+   height: 80px;
+   background: black;
+   position:relative;
+   top:0px;
+   left: 0px;
+}
+#diagonal_contato_A{
+   width:100%;
+   height: 90px;
+   background: #FFF;
+   /*position:relative;*/
+   top:0px;
+   left: 0px;
+}
+#diagonal_contato_B{
+  width: 106%;
+height:80px;
+background: #003333;
+transform: rotate(3deg);
+position:absolute; 
+left: -9px;
+margin-top: -30px;
+ padding-left: 3px;
+
+}
+.diagonal_Noticia_A{
+   width:100%;
+   height: 90px;
+   background: #003333;
+   /*position:relative;*/
+   top: 0px;
+   left: 0px;   
+  
+}
+.diagonal_Noticia_B{
+width: 106%;
+height:60px;
+background: #CC9900;
+transform: rotate(3deg);
+position:absolute;
+left: -9px;
+margin-top: -20px;
+padding-left: 3px;
+}
+.thumbnail{
+  color:#00FF99;
+}
+.sobre{
+  overflow: auto;
+  
+}
+
+
+.container-hiddenSobre{
+	/*background-image: url('../img/tecnologia.jpg');*/
+    background-color:#00FF99;
+	color:white;   
+	text-align:justify;
+  font-size: 14px;
+  font-weight: bold;  
+}
+
+.container-hiddenNoticia{
+    color:white;
+	background-color:#CC9900;
+}
+
+/* Initial menu */
+
+
+.menu ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;  
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu a:hover{
+    color: #FFF;
+}
